@@ -1,3 +1,15 @@
+### Terraform Script####
+###In this below script I  am creating the EC2 Instance using terraform and also##Destroying the Created Instance##
+#### Mandatory thing to check before running the file check the "region name"
+### and "AMI id".
+#For run this paticular script you a save the file with '.tf' extention to
+## and go to command line first use the terraform init cmd
+## next terraform plan this paticular cmd give the how many Instances are 
+#creating and in which region it will using it will display
+## next step use terraform apply then give 'yes' it will run the script
+##lastly terraform Destory then it will destory the created Instance 
+
+
 provider "aws" {
     region = "us-east-1"  # Set your desired AWS region
 }
