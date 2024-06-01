@@ -20,6 +20,7 @@ resource "aws_instance" "sasi12" {
     key_name = var.key-name
      tags = {
     Name = var.Name # specify a name for Ec2 Instance
+    
   }
 
 }
